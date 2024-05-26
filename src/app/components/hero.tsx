@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <div className="w-full h-[800px] relative overflow-hidden">
       <iframe
-        className="absolute w-full h-full transform scale-150"
+        className="absolute w-full h-full transform scale-150 max-lg:scale-[2] max-md:scale-[3] max-sm:scale-[4]"
         src="https://player.vimeo.com/video/897387085?h=4f192c9252&autoplay=1&loop=1&autopause=0&muted=1&controls=0"
       />
 
