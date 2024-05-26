@@ -1,3 +1,10 @@
+import { AboutUsSection } from './components/about-us-section/about-us-section';
+
 export default function Home() {
-  return <main>home</main>;
+  return (
+    <main>
+      <div>test</div>
+      <AboutUsSection />
+    </main>
+  );
 }

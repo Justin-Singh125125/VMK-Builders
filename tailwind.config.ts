@@ -7,6 +7,13 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontSize: {
+      // 42px
+      h1: '2.625rem',
+      // 24px
+      h3: '1.5rem',
+      link: '1rem',
+    },
     colors: {
       common: {
         white: '#fff',
