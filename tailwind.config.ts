@@ -25,6 +25,7 @@ const config: Config = {
       },
       primary: {
         400: '#000',
+        300: '#161616',
         100: '#A4A4A4',
       },
       secondary: {
