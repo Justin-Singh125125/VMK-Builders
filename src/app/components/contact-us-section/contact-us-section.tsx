@@ -5,7 +5,7 @@ import { Typography } from '../../ui/typography';
 
 export const ContactUsSection = () => {
   return (
-    <Section className="bg-secondary-400">
+    <Section id="contact-us" className="bg-secondary-400">
       <Section.Header className="text-primary-400">Contact Us</Section.Header>
       <Section.Content className="grid grid-cols-2 gap-8">
         <div>

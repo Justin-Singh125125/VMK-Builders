@@ -1,15 +1,12 @@
 import clsx from 'clsx';
-import { ReactNode } from 'react';
+import { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react';
 import { Typography } from '../ui/typography';
 
-export type SectionProps = {
-  children: ReactNode;
-  className?: string;
-};
+export type SectionProps = DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>;
 
-export const Section = ({ children, className }: SectionProps) => {
+export const Section = ({ children, className, ...rest }: SectionProps) => {
   return (
-    <section className={clsx('py-14 px-[18.875rem] flex flex-col gap-8', className)}>
+    <section className={clsx('py-14 px-[18.875rem] flex flex-col gap-8', className)} {...rest}>
       {children}
     </section>
   );

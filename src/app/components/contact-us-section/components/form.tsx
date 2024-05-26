@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { Button } from './button';
+import { Button } from '../../../ui/button';
 import { Input, InputProps } from './input';
 import { TextArea, TextAreaProps } from './text-area';
 
