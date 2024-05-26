@@ -6,7 +6,7 @@ export type LinkProps = BaseLinkProps & { children: ReactNode; className?: strin
 
 export const Link = ({ children, className, ...rest }: LinkProps) => {
   return (
-    <BaseLink className={clsx('text-common-white text-link', className)} {...rest}>
+    <BaseLink className={clsx('text-common-white text-link underline', className)} {...rest}>
       {children}
     </BaseLink>
   );

@@ -1,7 +1,6 @@
 import Image, { StaticImageData } from 'next/image';
-import { Typography } from '@/app/ui/typography';
-import Pick1 from './pic-1.webp';
 import clsx from 'clsx';
+import { Typography } from '../../../ui/typography';
 
 export type ItemProps = {
   reverseLayout?: boolean;

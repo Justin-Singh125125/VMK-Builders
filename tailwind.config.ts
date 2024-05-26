@@ -14,6 +14,8 @@ const config: Config = {
       h3: '1.5rem',
       // 18px
       p: '1.125rem',
+      // 18px
+      label: '1.125rem',
       link: '1rem',
     },
     colors: {

@@ -1,7 +1,7 @@
 import { clsx } from 'clsx';
 import { ReactNode } from 'react';
 
-export type TypographyVariants = 'h1' | 'h3' | 'p';
+export type TypographyVariants = 'h1' | 'h3' | 'p' | 'label';
 
 export type TypographyProps = {
   variant: TypographyVariants;
@@ -13,6 +13,7 @@ const VARIANT_STYLES: Record<TypographyVariants, string> = {
   h1: 'text-h1',
   h3: 'text-h3',
   p: 'text-p',
+  label: 'text-label',
 };
 
 export const Typography = ({ variant, className, children }: TypographyProps) => {
