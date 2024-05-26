@@ -12,6 +12,8 @@ const config: Config = {
       h1: '2.625rem',
       // 24px
       h3: '1.5rem',
+      // 18px
+      p: '1.125rem',
       link: '1rem',
     },
     colors: {
@@ -21,6 +23,7 @@ const config: Config = {
       },
       primary: {
         400: '#000',
+        100: '#A4A4A4',
       },
       secondary: {
         400: '#31c17c',

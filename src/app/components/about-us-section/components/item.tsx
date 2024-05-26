@@ -1,18 +1,38 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { Typography } from '@/app/ui/typography';
+import Pick1 from './pic-1.webp';
+import clsx from 'clsx';
 
-export const Item = () => {
+export type ItemProps = {
+  reverseLayout?: boolean;
+  src: StaticImageData;
+  alt: string;
+  title: string;
+  description: string;
+};
+
+export const Item = ({ reverseLayout, src, alt, title, description }: ItemProps) => {
   return (
-    <div>
+    <div className="grid grid-cols-2 gap-2 items-start">
       <Image
-        width={100}
-        height={100}
-        alt="test"
-        src="https://img1.wsimg.com/isteam/ip/56e50127-c39c-4cb…l:0%25,w:100%25,h:74.94%25/rs=w:600,h:300,cg:true"
+        width={600}
+        height={300}
+        alt={alt}
+        src={src}
+        className={clsx(reverseLayout ? 'col-start-2 row-start-1' : undefined)}
       />
-      <div>
-        <Typography variant="h3">Our Company </Typography>
-        <Typography variant="h3">Our Company </Typography>
+      <div
+        className={clsx(
+          'flex flex-col gap-8',
+          reverseLayout ? 'col-start-1 row-start-1' : undefined
+        )}
+      >
+        <Typography variant="h3" className="text-center">
+          {title}
+        </Typography>
+        <Typography variant="p" className="text-primary-100 font-light whitespace-pre-wrap">
+          {description}
+        </Typography>
       </div>
     </div>
   );
