@@ -10,8 +10,9 @@ import Image6 from './images/6.jpeg';
 import Image7 from './images/7.jpeg';
 import Image8 from './images/8.jpeg';
 import Image9 from './images/9.jpeg';
+import Image10 from './images/10.jpeg';
 
-const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image9];
+const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10];
 
 export const Images = () => {
   return (
