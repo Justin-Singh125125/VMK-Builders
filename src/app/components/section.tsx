@@ -6,7 +6,10 @@ export type SectionProps = DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLEl
 
 export const Section = ({ children, className, ...rest }: SectionProps) => {
   return (
-    <section className={clsx('py-14 px-72 flex flex-col gap-8 max-md:px-16', className)} {...rest}>
+    <section
+      className={clsx('py-14 px-72 flex flex-col gap-8 max-xl:px-16 max-md:px-8', className)}
+      {...rest}
+    >
       {children}
     </section>
   );

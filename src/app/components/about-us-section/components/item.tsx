@@ -12,18 +12,20 @@ export type ItemProps = {
 
 export const Item = ({ reverseLayout, src, alt, title, description }: ItemProps) => {
   return (
-    <div className="grid grid-cols-2 gap-2 items-start">
+    <div className="grid grid-cols-2 gap-8 items-start max-md:flex max-md:flex-col">
       <Image
-        width={600}
-        height={300}
+        width={0}
+        height={0}
         alt={alt}
         src={src}
-        className={clsx(reverseLayout ? 'col-start-2 row-start-1' : undefined)}
+        className={clsx('w-full h-full', { 'col-start-2 row-start-1': reverseLayout })}
       />
       <div
         className={clsx(
           'flex flex-col gap-8',
-          reverseLayout ? 'col-start-1 row-start-1' : undefined
+          clsx({
+            'col-start-1 row-start-1': reverseLayout,
+          })
         )}
       >
         <Typography variant="h3" className="text-center">
