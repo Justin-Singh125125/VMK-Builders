@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'VMK Builders & CO',
-  description: '',
+  description: 'Quality comes first.',
 };
 
 import { Navbar } from './components/navbar';
