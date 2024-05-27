@@ -5,7 +5,7 @@ import { Link } from '../ui/link';
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary-300 py-14 px-[18.875rem] flex flex-col gap-2">
+    <footer className="bg-primary-300 py-14 px-[18.875rem] flex flex-col gap-2 max-xl:px-16 max-md:px-8">
       <Typography variant="p" className="text-center font-bold">
         Pro Line Builders
       </Typography>
