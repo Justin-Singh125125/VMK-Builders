@@ -8,7 +8,7 @@ export const ContactInfo = () => {
         VMK Builders & CO. License #000000
       </Typography>
       <Link href="tel:9165348218" className="text-primary-400">
-        (916) 534-8218
+        (555) 555-5555
       </Link>
     </div>
   );
