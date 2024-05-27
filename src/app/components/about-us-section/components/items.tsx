@@ -10,21 +10,21 @@ const items: Omit<ItemProps, 'reverseLayout'>[] = [
     alt: 'Image 1',
     title: 'Our Company',
     description:
-      "At Pro Line Builders, we're a family-operated construction business dedicated to exceptional service. With a commitment to 5-star quality, honesty, and efficiency, we bring 10+ years of experience and values. Our team consists of skilled professionals passionate about exceeding expectations. Transparency, integrity, and reliability are at the core of our operations, fostering trust with our clients. We promise not just structures, but enduring relationships built on integrity and superior craftsmanship.",
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt veniam possimus. Blanditiis at placeat maxime nesciunt exercitationem, voluptatibus assumenda dignissimos ad, quidem itaque quasi nihil libero accusantium. Sit, magni.',
   },
   {
     src: Image2,
     alt: 'Image 2',
     title: 'Why Pick us?',
     description:
-      '"Our construction company stands as the prime choice, excelling in delivering unparalleled quality, reliability, and utmost satisfaction to ensure your project\'s success." \n\nVeterans/Active will Receive 3.5% off our services',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt veniam possimus. Blanditiis at placeat maxime nesciunt exercitationem, voluptatibus assumenda dignissimos ad, quidem itaque quasi nihil libero accusantium. Sit, magni.',
   },
   {
     src: Image3,
     alt: 'Image 3',
     title: 'We look forward to hearing from you',
     description:
-      'Our services include: \nFencing, Wood & Metal Gates, Painting, Handy Repairs, Pressure Washing, Dry Rot Repair, Gutter Cleaning & Upgrades, Demolition, Landscaping, Replacing Light Fixtures, interior carpentry and Shed Upgrades.',
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt veniam possimus. Blanditiis at placeat maxime nesciunt exercitationem, voluptatibus assumenda dignissimos ad, quidem itaque quasi nihil libero accusantium. Sit, magni.',
   },
 ];
 
