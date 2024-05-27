@@ -16,7 +16,7 @@ const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, 
 
 export const Images = () => {
   return (
-    <div className="flex flex-wrap gap-2 justify-start items-start">
+    <div className="grid grid-cols-3 gap-8 max-md:grid-cols-1">
       {images.map(({ src }, index) => {
         const alt = `image-${index + 1}`;
         return <ImageItem key={alt} alt={alt} src={src} />;
