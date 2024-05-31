@@ -10,10 +10,10 @@ export const Footer = () => {
         VMK Builders & CO
       </Typography>
       <Link
-        href="tel:5555555555"
+        href="tel:9167546962"
         className="text-common-white-400 text-center flex justify-center w-full"
       >
-        (555) 555-5555
+        (916) 754-6962
       </Link>
       <Typography variant="p" className="text-primary-100 text-center">
         Copyright © 2024 VMK Builders & CO - All Rights Reserved.

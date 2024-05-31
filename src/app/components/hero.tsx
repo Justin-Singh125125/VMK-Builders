@@ -18,9 +18,14 @@ export const Hero = () => {
           Quality Comes First.
         </Typography>
 
-        <Link href="#contact-us">
-          <Button className="bg-secondary-400">Request An Estimate</Button>
-        </Link>
+        <div className="w-[400px] grid grid-cols-1 gap-8 max-md:gap-6 max-md:w-[275px]">
+          <Link href="#contact-us">
+            <Button className="bg-secondary-400 w-full">Request An Estimate</Button>
+          </Link>
+          <Link href="/projects">
+            <Button className="bg-secondary-400 w-full">Our Projects</Button>
+          </Link>
+        </div>
       </div>
     </div>
   );

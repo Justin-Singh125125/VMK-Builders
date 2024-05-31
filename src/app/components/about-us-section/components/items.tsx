@@ -2,7 +2,7 @@ import { Item, ItemProps } from './item';
 
 import Image1 from './pic-1.webp';
 import Image2 from './pic-2.webp';
-import Image3 from './pic-3.webp';
+import Image3 from '../../../projects/images/2.jpeg';
 
 const items: Omit<ItemProps, 'reverseLayout'>[] = [
   {
@@ -10,21 +10,21 @@ const items: Omit<ItemProps, 'reverseLayout'>[] = [
     alt: 'Image 1',
     title: 'Our Company',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt veniam possimus. Blanditiis at placeat maxime nesciunt exercitationem, voluptatibus assumenda dignissimos ad, quidem itaque quasi nihil libero accusantium. Sit, magni.',
+      "At VMK Builders, we specialize in crafting high-quality decks with over a decade of experience. Our commitment to excellence, honesty, and efficiency ensures 5-star service on every project. With a dedicated team of skilled professionals, we prioritize transparency, integrity, and reliability, fostering lasting trust with our clients. Beyond building decks, we're dedicated to creating enduring relationships built on superior craftsmanship and integrity.",
   },
   {
     src: Image2,
     alt: 'Image 2',
     title: 'Why Pick us?',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt veniam possimus. Blanditiis at placeat maxime nesciunt exercitationem, voluptatibus assumenda dignissimos ad, quidem itaque quasi nihil libero accusantium. Sit, magni.',
+      'Our construction company is your prime choice, excelling in delivering unmatched quality, reliability, and utmost satisfaction to ensure the success of your project. We pride ourselves on selecting premium materials, offering financing options, and providing a warranty with every deck build.',
   },
   {
     src: Image3,
     alt: 'Image 3',
-    title: 'We look forward to hearing from you',
+    title: 'Our services include:',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt veniam possimus. Blanditiis at placeat maxime nesciunt exercitationem, voluptatibus assumenda dignissimos ad, quidem itaque quasi nihil libero accusantium. Sit, magni.',
+      '• Deck Building \n• Fencing \n• Wood & Metal Gates \n• Landscaping/Hardscaping \n• Pavers \n• Grading \n• Custom Mailboxes',
   },
 ];
 

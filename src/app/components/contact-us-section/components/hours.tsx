@@ -8,25 +8,25 @@ export const Hours = () => {
       </Typography>
       <div className="mt-2">
         <Typography variant="p" className="text-primary-400">
-          Mon 09:00 am – 05:00 pm
+          Mon 06:00 am – 08:00 pm
         </Typography>
         <Typography variant="p" className="text-primary-400">
-          Tue 09:00 am – 05:00 pm
+          Tue 06:00 am – 08:00 pm
         </Typography>
         <Typography variant="p" className="text-primary-400">
-          Wed 09:00 am – 05:00 pm
+          Wed 06:00 am – 08:00 pm
         </Typography>
         <Typography variant="p" className="text-primary-400">
-          Thu 09:00 am – 05:00 pm
+          Thu 06:00 am – 08:00 pm
         </Typography>
         <Typography variant="p" className="text-primary-400">
-          Fri 09:00 am – 05:00 pm
+          Fri 06:00 am – 08:00 pm
         </Typography>
-        <Typography variant="p" className="text-primary-400 font-semibold">
-          Sat Closed
+        <Typography variant="p" className="text-primary-400">
+          Sat 06:00 am – 08:00 pm
         </Typography>
-        <Typography variant="p" className="text-primary-400 font-semibold">
-          Sun Closed
+        <Typography variant="p" className="text-primary-400">
+          Sun 06:00 am – 08:00 pm
         </Typography>
       </div>
     </div>

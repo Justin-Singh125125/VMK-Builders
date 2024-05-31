@@ -18,14 +18,19 @@ export const Item = ({ reverseLayout, src, alt, title, description }: ItemProps)
         height={0}
         alt={alt}
         src={src}
-        className={clsx('w-full h-full', { 'col-start-2 row-start-1': reverseLayout })}
+        className={clsx(
+          'w-full h-auto',
+          { 'col-start-2 row-start-1': reverseLayout },
+          'max-md:order-2'
+        )}
       />
       <div
         className={clsx(
-          'flex flex-col gap-8',
+          'flex flex-col gap-8 items-center',
           clsx({
             'col-start-1 row-start-1': reverseLayout,
-          })
+          }),
+          'max-md:order-1'
         )}
       >
         <Typography variant="h3" className="text-center">
