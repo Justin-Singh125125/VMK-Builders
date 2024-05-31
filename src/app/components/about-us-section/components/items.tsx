@@ -1,7 +1,7 @@
 import { Item, ItemProps } from './item';
 
 import Image1 from './pic-1.webp';
-import Image2 from './pic-2.webp';
+import Image2 from './pic-2.png';
 import Image3 from '../../../projects/images/2.jpeg';
 
 const items: Omit<ItemProps, 'reverseLayout'>[] = [
